@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+#banner_section{
+    display: flex;
+    margin: 50px 0;
+}
+
+#banner_section .half-width{
+    margin-left: 5%;
+}
+
+.half-width{
+    width: 50%;
+}
+
+
+.color-text{
+    color: orange;
+}
+
+#banner_section .banner-heading{
+    font-size: 60px;
+    font-weight: 700;
+    color: #575757;
+}
+
+#banner_section .half-width p{
+    font-size: 20px;
+    color: #828282;
+    padding: 20px 0;
+}
+
+.link-button{
+    text-decoration: none;
+    font-weight: 500;
+    background-image: linear-gradient(to right,#FC934A, #FE4F30);
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+#about-me{
+    display: flex;
+    background-image: url(images/7.png);
+    height: 100vh;
+}
+
+#about-me img{
+    width: 60%;
+    padding-left: 30%;
+}
+
+#about-me .vertical-center{
+    padding: 15% 0;
+}
+
+#about-me .vertical-center h1{
+   font-size: 40px;
+   color: #707070;
+   font-weight: bold;
+}
+
+#about-me .vertical-center p{
+    font-size: 20px;
+    color: #18191F;
+    padding: 20px 0;
+ }
+
+ #recipi_section .flexible{
+    display: flex;
+    margin: 5% 10%;
+ }
+
+ #recipi_section .flexible .recipi-name{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 20px;
+    overflow: auto;
+ }
+
+
+ #recipi_section{
+    margin: 100px 0 50px;
+ }
+
+ #recipi_section .center{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+ }
+
+ #recipi_section .center h2{
+    font-size: 36px;
+    color: #676767;
+ }
+
+ #recipi_section .center p{
+    font-size: 18px;
+    color: #252525;
+ }
+
+ .cover-img{
+    width: 100%;
+    height: 60%;
+ }
+
+ #recipi_section .flexible .recipi-name h3{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #18191f;
+ }
+
+ #recipi_section .flexible .recipi-name p{
+    font-size: 18px;
+    color: #18191f;
+ }
+
+ .countdown{
+    display: flex;
+    margin: 130px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 20px;
+ }
+
+ .countdown-item{
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ .countdown-item h1{
+    font-size: 48px;
+    color: #18191F;
+    margin-bottom: 10px;
+    font-weight: bold;
+ }
+
+ footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 100px 0;
+ }
+
+ footer h1{
+    color: #5b5b5b;
+    font-size: 30px;
+ }
+
+ footer p{
+   color: #fff;
+   font-size: 16px;
+}
+
+
